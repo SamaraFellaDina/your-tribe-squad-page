@@ -83,27 +83,13 @@ header {
     background-color: rgb(38, 38, 38);
 }
 
-#frame2{
-    translate: 0% 50%;
-}
 
-#frame3{
-    translate: 0% 25%;
-}
-
-#frame4{
-    translate: 0% -10%;
-}
-
-#frame5{
-    translate: 0% 50%;
-}
 
 
 .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Create 3 equal columns */
-    grid-gap: 5em; /* Add spacing between the frames */
+    grid-gap: 6em; /* Add spacing between the frames */
     justify-content: center; /* Center the columns */
     max-height: 70vh; /* Set a maximum height equal to the viewport height */
     padding: 10em;
@@ -121,14 +107,18 @@ iframe {
 
 .iframe-container {
     position: relative; /* Make sure the overlay is positioned relative to the container */
+    width: 16em;
+    height: 125%;
+    background-color: #ffffd5d9;
+    border-radius: 10%;
 }
 
 .iframe-overlay {
     position: absolute;
     top: 0;
     left: 0;
-    width: 78%;
-    height: 99%;
+    width: 16em;
+    height: 100%;
     background: rgb(161, 161, 161);
     opacity: 0; /* Make the overlay invisible by default */
     pointer-events: none; /* Allow clicks to pass through the overlay to the iframe */
