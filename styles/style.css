@@ -2,13 +2,26 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Skyscapers';
-    background: linear-gradient(45deg, #3f3f3f, #000000);
+    background: linear-gradient(45deg, #f67979, #376d0a);
     background-size: 200% 200%;
     animation: gradientAnimation 5s infinite;
     color: aliceblue;
     overflow-x: hidden;
     overflow: hidden;
 }
+
+/* Add styling for the "whiteroom" section */
+.whiteroom {
+    background-color: rgba(255, 255, 255, 0); /* Set the background color as needed */
+    /* Add any other styles you want for this section */
+    height: 10em;
+}
+
+.logo {
+    height: 40%;
+    width: 40%;
+}
+
 
 @keyframes gradientAnimation {
     0% {
@@ -98,7 +111,7 @@ header {
 
 
 iframe {
-    border: 0.5em solid #ffffd5;
+    border: 0.5em solid #000000;
     border-radius: 10%;
     height: 15em;
     width: 15em;
@@ -109,7 +122,7 @@ iframe {
     position: relative; /* Make sure the overlay is positioned relative to the container */
     width: 16em;
     height: 125%;
-    background-color: #ffffd5d9;
+    background-color: #060606d9;
     border-radius: 10%;
 }
 
@@ -125,5 +138,7 @@ iframe {
     z-index: 2; /* Place the overlay above the iframe */
     border-radius: 10%;
 }
+
+
 
 
