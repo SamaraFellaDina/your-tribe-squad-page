@@ -139,7 +139,9 @@ iframe {
     border-radius: 10%;
     transition: 100ms;
 }
-
+p {
+    font-family: "Montserrat", sans-serif;
+}
 p.naam {
     position: absolute;
     bottom: 0.5em;
@@ -154,7 +156,7 @@ p.upvotes {
     padding-bottom: 0em;
     padding-left: 1em;
     color: black;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 p.upvotes::after {
