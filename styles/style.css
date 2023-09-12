@@ -124,6 +124,33 @@ iframe {
     pointer-events: none; /* Allow clicks to pass through the overlay to the iframe */
     z-index: 2; /* Place the overlay above the iframe */
     border-radius: 10%;
+    transition: 100ms;
+}
+
+p.naam {
+    position: absolute;
+    bottom: 0.5em;
+    padding: 1em;
+    color: black;
+    font-weight: bold;
+}
+
+p.upvotes {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 0em;
+    padding-left: 1em;
+    color: black;
+    font-weight: bold;
+}
+
+p.upvotes::after {
+    content: "⬆️";
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 0em;
+    padding-right: 1em;
+    font-weight: bold;
 }
 
 
