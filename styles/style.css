@@ -10,12 +10,7 @@ body {
     overflow: hidden;
 }
 
-/* Add styling for the "whiteroom" section */
-.whiteroom {
-    background-color: rgba(255, 255, 255, 0); /* Set the background color as needed */
-    /* Add any other styles you want for this section */
-    height: 10em;
-}
+
 
 .logo {
     height: 40%;
@@ -106,6 +101,7 @@ header {
     justify-content: center; /* Center the columns */
     max-height: 70vh; /* Set a maximum height equal to the viewport height */
     padding: 10em;
+    margin-top: 10em;
     overflow-y: auto; /* Add vertical scroll if content overflows */
 }
 
@@ -140,29 +136,22 @@ iframe {
     transition: 100ms;
 }
 
-p.naam {
+.naam {
     position: absolute;
     bottom: 0.5em;
-    padding: 1em;
-    color: black;
-    font-weight: bold;
-}
-
-p.upvotes {
-    position: absolute;
-    bottom: 0;
-    padding-bottom: 0em;
     padding-left: 1em;
     color: black;
     font-weight: bold;
 }
 
-p.upvotes::after {
+.upvotes::after {
     content: "⬆️";
     position: absolute;
     bottom: 0;
-    padding-bottom: 0em;
-    padding-right: 1em;
+    right: 0;
+    font-size:x-large;
+    padding-bottom: 0.5em;
+    padding-right: 1.5em;
     font-weight: bold;
 }
 
