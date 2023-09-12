@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Skyscapers';
+    background: linear-gradient(45deg, #3f3f3f, #000000);
+    background-size: 200% 200%;
+    animation: gradientAnimation 5s infinite;
+    color: aliceblue;
+    overflow-x: hidden;
+    overflow: hidden;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+header {
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 1.5em;
+    z-index: 10;
+}
+
+
+
+
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#loginButton {
+    background-color:#000000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    top: 5em;
+    left: 95em;
+}
+
+#loginButton:hover {
+    background-color: rgb(38, 38, 38);
+}
+
+#frame2{
+    translate: 0% 50%;
+}
+
+#frame3{
+    translate: 0% 25%;
+}
+
+#frame4{
+    translate: 0% -10%;
+}
+
+#frame5{
+    translate: 0% 50%;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Create 3 equal columns */
+    grid-gap: 5em; /* Add spacing between the frames */
+    justify-content: center; /* Center the columns */
+    max-height: 70vh; /* Set a maximum height equal to the viewport height */
+    padding: 10em;
+    overflow-y: auto; /* Add vertical scroll if content overflows */
+}
+
+
+iframe {
+    border: 0.5em solid #ffffd5;
+    border-radius: 10%;
+    height: 15em;
+    width: 15em;
+}
+
+
+.iframe-container {
+    position: relative; /* Make sure the overlay is positioned relative to the container */
+}
+
+.iframe-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 78%;
+    height: 99%;
+    background: rgb(161, 161, 161);
+    opacity: 0; /* Make the overlay invisible by default */
+    pointer-events: none; /* Allow clicks to pass through the overlay to the iframe */
+    z-index: 2; /* Place the overlay above the iframe */
+    border-radius: 10%;
+}
+
+
