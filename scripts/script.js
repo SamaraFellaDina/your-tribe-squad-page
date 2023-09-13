@@ -157,4 +157,20 @@ iframeContainers.forEach(container => {
 
 
 
+const button = document.getElementById("popup-knop");
+const overlay = document.getElementById("overlaag");
+const popup = document.getElementById("poppup");
+
+button.addEventListener("click", function () {
+  overlay.style.display = "block";
+  popup.style.display = "block";
+});
+
+overlay.addEventListener("click", function () {
+  overlay.style.display = "none";
+  popup.style.display = "none";
+});
+
+
+
 
