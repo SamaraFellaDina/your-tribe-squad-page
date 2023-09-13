@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Skyscapers';
-    background: linear-gradient(45deg, #f67979, #376d0a);
+    background: linear-gradient(45deg, #000000, #000000);
     background-size: 200% 200%;
     animation: gradientAnimation 5s infinite;
     color: aliceblue;
@@ -83,9 +83,9 @@ header {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    position: absolute;
-    top: 5em;
-    left: 95em;
+    position:fixed;
+    top: 3.5em;
+    right: 2em;
 }
 
 #loginButton:hover {
@@ -102,23 +102,34 @@ header {
     grid-gap: 6em; /* Add spacing between the frames */
     justify-content: center; /* Center the columns */
     max-height: 70vh; /* Set a maximum height equal to the viewport height */
-    padding: 10em;
+    padding-left: 5em;
+    padding-top: 10em;
     margin-top: 10em;
     overflow-y: auto; /* Add vertical scroll if content overflows */
+    overflow-x: hidden;
+}
+
+@media (max-width: 1125px) {
+    .container {
+        grid-template-columns: repeat(1, 1fr); /* Create 3 equal columns */
+        align-items: center;
+        padding-left: 1.5em;
+       
+    }
 }
 
 
 iframe {
     border: 0.5em solid #ffffff;
     border-radius: 10%;
-    height: 15em;
-    width: 15em;
+    height: 20em;
+    width: 20em;
 }
 
 
 .iframe-container {
     position: relative; /* Make sure the overlay is positioned relative to the container */
-    width: 16em;
+    width: 21em;
     height: 125%;
     background-color: #dededed9;
     border-radius: 10%;
@@ -128,7 +139,7 @@ iframe {
     position: absolute;
     top: 0;
     left: 0;
-    width: 16em;
+    width: 21em;
     height: 100%;
     background: rgb(161, 161, 161);
     opacity: 0; /* Make the overlay invisible by default */
@@ -141,6 +152,9 @@ iframe {
 p {
     font-family: "Montserrat", sans-serif;
 }
+p.naam {
+}
+
 
 .naam {
     position: absolute;
