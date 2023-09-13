@@ -157,21 +157,61 @@ iframeContainers.forEach(container => {
 
 
 
-const button = document.getElementById("iframe-knop");
-const overlay = document.getElementById("overlaag");
-const popup = document.getElementById("poppup");
-const a = document.getElementById("a");
 
-button.addEventListener("click", function () {
-  overlay.style.display = "block";
-  popup.style.display = "block";
+
+
+
+
+// Reusable function to open the pop-up for an iframe container
+function openIframePopup(containerId) {
+    const popup = document.getElementById("poppup");
+    const iframeContainer = document.getElementById(containerId);
+
+    popup.style.display = "block";
+
+    // Update the iframe source based on the container
+    const iframe = popup.querySelector("#poppup-iframe");
+    const iframeSrc = iframeContainer.querySelector("iframe").src;
+    iframe.src = iframeSrc;
+}
+
+// Reusable function to close the pop-up
+function closeIframePopup() {
+    const popup = document.getElementById("poppup");
+
+    popup.style.display = "none";
+}
+
+// Event listeners for "VIEW" buttons of each iframe container
+document.getElementById("iframe-knop").addEventListener("click", function () {
+    openIframePopup("frame1");
 });
 
-overlay.addEventListener("click", function () {
-  overlay.style.display = "none";
-  popup.style.display = "none";
+// Event listeners for "VIEW" buttons of each iframe container
+document.getElementById("exit1").addEventListener("click", function () {
+    closeIframePopup("frame1");
 });
 
+document.getElementById("frame2-view-button").addEventListener("click", function () {
+    openIframePopup("frame2");
+});
 
+// Event listeners for "VIEW" buttons of each iframe container
+document.getElementById("exit2").addEventListener("click", function () {
+    closeIframePopup("frame2");
+});
+
+document.getElementById("frame3-view-button").addEventListener("click", function () {
+    openIframePopup("frame3");
+});
+
+// Event listeners for "VIEW" buttons of each iframe container
+document.getElementById("exit3").addEventListener("click", function () {
+    closeIframePopup("frame3");
+});
+
+document.getElementById("frame4-view-button").addEventListener("click", function () {
+    openIframePopup("frame4");
+});
 
 
