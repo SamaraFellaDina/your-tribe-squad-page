@@ -1,4 +1,5 @@
 body {
+    color-scheme: light dark;
     margin: 0;
     padding: 0;
     font-family: 'Skyscapers';
@@ -89,6 +90,7 @@ header {
 
 #loginButton:hover {
     background-color: rgb(38, 38, 38);
+    color: white;
 }
 
 
@@ -147,12 +149,18 @@ iframe {
     transition: 100ms;
 }
 
+p {
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
 .naam {
     position: absolute;
     bottom: 0.5em;
     padding-left: 1em;
     color: black;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 .upvotes::after {
