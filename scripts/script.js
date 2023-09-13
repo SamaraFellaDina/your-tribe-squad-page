@@ -157,7 +157,7 @@ iframeContainers.forEach(container => {
 
 
 
-const button = document.getElementById("popup-knop");
+const button = document.getElementById("iframe-knop");
 const overlay = document.getElementById("overlaag");
 const popup = document.getElementById("poppup");
 
