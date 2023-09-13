@@ -160,6 +160,7 @@ iframeContainers.forEach(container => {
 const button = document.getElementById("iframe-knop");
 const overlay = document.getElementById("overlaag");
 const popup = document.getElementById("poppup");
+const a = document.getElementById("a");
 
 button.addEventListener("click", function () {
   overlay.style.display = "block";
