@@ -178,47 +178,17 @@ function openIframePopup(containerId) {
 // Reusable function to close the pop-up
 function closeIframePopup() {
     const popup = document.getElementById("poppup");
-
     popup.style.display = "none";
 }
 
-// Event listeners for "VIEW" buttons of each iframe container
-document.getElementById("iframe-knop").addEventListener("click", function () {
-    openIframePopup("frame1");
+// Event listener for all frame-view-buttons
+document.querySelectorAll(".iframe-button").forEach((button, index) => {
+    button.addEventListener("click", () => {
+        openIframePopup(`frame${index + 1}`);
+    });
 });
 
-// Event listeners for "VIEW" buttons of each iframe container
-document.getElementById("exit1").addEventListener("click", function () {
-    closeIframePopup("frame1");
+// Event listener for the exit button in the popup
+document.getElementById("exit1").addEventListener("click", () => {
+    closeIframePopup();
 });
-
-
-document.getElementById("frame2-view-button").addEventListener("click", function () {
-    openIframePopup("frame2");
-});
-
-// Event listeners for "VIEW" buttons of each iframe container
-document.getElementById("exit2").addEventListener("click", function () {
-    closeIframePopup("frame2");
-});
-
-
-document.getElementById("frame3-view-button").addEventListener("click", function () {
-    openIframePopup("frame3");
-});
-
-// Event listeners for "VIEW" buttons of each iframe container
-document.getElementById("exit3").addEventListener("click", function () {
-    closeIframePopup("frame3");
-});
-
-
-document.getElementById("frame4-view-button").addEventListener("click", function () {
-    openIframePopup("frame4");
-});
-
-document.getElementById("exit4").addEventListener("click", function () {
-    closeIframePopup("frame4a");
-});
-
-
