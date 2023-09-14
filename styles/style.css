@@ -200,8 +200,6 @@ iframe {
 /*p {
     font-family: "Montserrat", sans-serif;
 }*/
-p.naam {
-}
 
 
 .naam {
@@ -217,7 +215,9 @@ p.naam {
     justify-content: center;
 }
 
-#frame2-view-button{
+#frame2-view-button, #frame3-view-button, #frame4-view-button, #frame5-view-button, #frame6-view-button, #frame7-view-button, #frame8-view-button,
+#frame9-view-button, #frame10-view-button, #frame11-view-button, #frame12-view-button, #frame13-view-button, #frame14-view-button, #frame15-view-button,
+#frame16-view-button, #frame17-view-button, #frame18-view-button, #frame19-view-button, #frame20-view-button {
     border-color: #00000000;
 }
 
