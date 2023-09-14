@@ -192,6 +192,7 @@ document.getElementById("exit1").addEventListener("click", function () {
     closeIframePopup("frame1");
 });
 
+
 document.getElementById("frame2-view-button").addEventListener("click", function () {
     openIframePopup("frame2");
 });
@@ -200,6 +201,7 @@ document.getElementById("frame2-view-button").addEventListener("click", function
 document.getElementById("exit2").addEventListener("click", function () {
     closeIframePopup("frame2");
 });
+
 
 document.getElementById("frame3-view-button").addEventListener("click", function () {
     openIframePopup("frame3");
@@ -210,8 +212,13 @@ document.getElementById("exit3").addEventListener("click", function () {
     closeIframePopup("frame3");
 });
 
+
 document.getElementById("frame4-view-button").addEventListener("click", function () {
     openIframePopup("frame4");
+});
+
+document.getElementById("exit4").addEventListener("click", function () {
+    closeIframePopup("frame4a");
 });
 
 

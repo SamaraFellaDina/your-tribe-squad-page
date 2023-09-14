@@ -222,22 +222,6 @@ iframe {
     border-color: #00000000;
 }
 
-#frame3-view-button{
-    border-color: #00000000;
-}
-
-#frame4-view-button{
-    border-color: #00000000;
-}
-
-#frame5-view-button{
-    border-color: #00000000;
-}
-
-#frame6-view-button{
-    border-color: #00000000;
-}
-
 .upvotes::after {
     content: "⬆";
     color: rgb(38, 235, 235);
