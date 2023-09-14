@@ -2,7 +2,8 @@ body {
     color-scheme: light dark;
     margin: 0;
     padding: 0;
-    font-family: 'Gotham-Bold';
+    font-family: 'Mosk', sans-serif;
+    font-family: 'Mosk Semi-Bold 600', sans-serif;
     background: linear-gradient(45deg, #080808, #0d0d0e);
     background-size: 200% 200%;
     animation: gradientAnimation 5s infinite;
@@ -218,6 +219,22 @@ iframe {
 #frame2-view-button, #frame3-view-button, #frame4-view-button, #frame5-view-button, #frame6-view-button, #frame7-view-button, #frame8-view-button,
 #frame9-view-button, #frame10-view-button, #frame11-view-button, #frame12-view-button, #frame13-view-button, #frame14-view-button, #frame15-view-button,
 #frame16-view-button, #frame17-view-button, #frame18-view-button, #frame19-view-button, #frame20-view-button {
+    border-color: #00000000;
+}
+
+#frame3-view-button{
+    border-color: #00000000;
+}
+
+#frame4-view-button{
+    border-color: #00000000;
+}
+
+#frame5-view-button{
+    border-color: #00000000;
+}
+
+#frame6-view-button{
     border-color: #00000000;
 }
 
