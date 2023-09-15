@@ -1,30 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
     <link href="https://fonts.cdnfonts.com/css/mosk" rel="stylesheet">
-    <style type="text/css">
-		@font-face {
-				font-family: 'Gotham-Bold';
-				src: url('gothambold.eot');
-				src: url('gothambold.eot?#iefix') format('embedded-opentype'),
-						 url('gothambold.woff') format('woff'),
-						 url('gothambold.ttf') format('truetype'),
-						 url('gothambold.svg#gothambold') format('svg');
-				font-weight: normal;
-				font-style: normal;
-		}
-		</style>
+
     <title>LinkUp</title>
 </head>
 
 <body>
     <main>
         <header>
-            <img src="assets/logo.png" class="logo">
+            <img src="assets/logo.png" alt="logo" class="logo">
             <span id="subtext">An FDND Project</span>
             <button id="loginButton">Login/Register</button>
         </header>
@@ -175,14 +164,14 @@
         <div id="popup" class="popup">
             <div class="popup-content">
                 <span class="close" id="closeButton">&times;</span>
-                <h2>Login</h2>
+                <p>Login</p>
                 <form id="loginForm">
                     <input type="text" id="loginUsername" placeholder="Username" required>
                     <input type="password" id="loginPassword" placeholder="Password" required>
                     <button type="button" onclick="loginUser()">Login</button>
                 </form>
 
-                <h2>Register</h2>
+                <p>Register</p>
                 <form id="registerForm">
                     <input type="text" id="registerUsername" placeholder="Username" required>
                     <input type="password" id="registerPassword" placeholder="Password" required>

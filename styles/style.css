@@ -16,6 +16,17 @@ main {
     padding: 2rem;
 }
 
+@font-face {
+    font-family: 'Gotham-Bold';
+    src: url('gothambold.eot');
+    src: url('gothambold.eot?#iefix') format('embedded-opentype'),
+             url('gothambold.woff') format('woff'),
+             url('gothambold.ttf') format('truetype'),
+             url('gothambold.svg#gothambold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 @keyframes gradientAnimation {
     0% {
