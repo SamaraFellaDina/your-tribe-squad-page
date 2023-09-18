@@ -10,8 +10,7 @@ body {
     background-size: 200% 200%;
     animation: gradientAnimation 5s infinite;
     color: aliceblue;
-    overflow-x: hidden;
-    overflow: hidden;
+    padding-bottom: 10em;
 }
 
 
