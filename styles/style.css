@@ -1,7 +1,7 @@
 body {
     color-scheme: light dark;
     margin: 0;
-    padding: 0;
+    padding: 2rem;
     font-family: 'Mosk', sans-serif;
     font-family: 'Mosk Semi-Bold 600', sans-serif;
     background: linear-gradient(45deg, #080808, #0d0d0e);
@@ -12,9 +12,7 @@ body {
     overflow: hidden;
 }
 
-main {
-    padding: 2rem;
-}
+
 
 @font-face {
     font-family: 'Gotham-Bold';
@@ -150,13 +148,10 @@ header {
         transform: translate(-50%, -50%);
     }
 
-    #exit1 {
-    }
-
 }
 
 
-@media (max-height: 500px) {
+@media (max-height: 670px) {
     .container {
         grid-template-columns: repeat(1, 1fr); /* Create 1 column */
         align-items: center;
