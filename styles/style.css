@@ -213,10 +213,8 @@ iframe {
     position: relative;
     background-color: #00000000;
     border-radius: 10%;
-    width: 10em;
-    height: 1.5em;
-    bottom: 2em;
     padding-left: 1em;
+    margin: 0;
     color: rgb(255, 255, 255);
     font-weight: normal;
     justify-content: center;
@@ -228,21 +226,21 @@ iframe {
     border-color: #00000000;
 }
 
-.upvotes::after {
-    content: "⬆";
-    color: rgb(38, 235, 235);
-    position: absolute;
-    bottom: 5em;
-    right: 1em;
-    font-size:x-large;
-    font-weight: bold;
+.naambutton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#up {
-    size: 50%;
+.naambutton button {
+    background: none;
+    outline: none;
+    border: none;
 }
 
-
+.naambutton button img {
+    width: 1em;
+}
 
 .iframe-overlay {
     position: absolute;
