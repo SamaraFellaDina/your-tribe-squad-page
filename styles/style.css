@@ -246,6 +246,7 @@ iframe {
 .naambutton button img {
     width: 1em;
     padding: 0.5em;
+    border-radius: ;
 }
 
 .naambutton button img:hover {
