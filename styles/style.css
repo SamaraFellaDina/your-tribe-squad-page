@@ -232,10 +232,14 @@ iframe {
     content: "⬆";
     color: rgb(38, 235, 235);
     position: absolute;
-    bottom: 5;
-    right: 0;
+    bottom: 5em;
+    right: 1em;
     font-size:x-large;
     font-weight: bold;
+}
+
+#up {
+    size: 50%;
 }
 
 
