@@ -245,6 +245,17 @@ iframe {
 
 .naambutton button img {
     width: 1em;
+    padding: 0.5em;
+}
+
+.naambutton button img:hover {
+    background-color: #3e8e41
+}
+
+.naambutton button img:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 
 
