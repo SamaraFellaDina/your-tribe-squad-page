@@ -15,6 +15,21 @@ From the 11th till the 23th (2023) we worked on a schoolproject named **LinkUp**
 Here you can see more about our project https://github.com/Treppord/your-tribe-squad-page/wiki
 
 
+## Installation
+
+### Requirements
+Before you can install LinkUp, make sure you have the following prerequisites in place:
+
+1. A text editor for code (e.g., Visual Studio Code).
+2. A web browser to view the LinkUp platform.
+
+### Installation
+To set up LinkUp on your local machine, follow these steps:
+
+1. Clone the LinkUp GitHub repository:
+   ```bash
+   git clone https://github.com/Treppord/your-tribe-squad-page.git
+
 ## Licentie
 
 This project is licensed under the terms of the [MIT license](./LICENSE).
