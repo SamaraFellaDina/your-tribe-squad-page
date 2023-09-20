@@ -14,4 +14,4 @@ This project is licensed under the terms of the [MIT license](./LICENSE).
 
 ## Front Page
 
-<img src="https://i.imgur.com/YTxk0jQ.jpg" alt="Your Image" width="200">
+<img src="https://i.imgur.com/YTxk0jQ.jpg" alt="Your Image" width="600">
