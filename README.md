@@ -11,3 +11,7 @@ We also had an investigation about the project. Things like drawings, links and 
 ## Licentie
 
 This project is licensed under the terms of the [MIT license](./LICENSE).
+
+## Front Page
+
+<img src="https://i.imgur.com/YTxk0jQ.jpg" alt="Your Image" width="200">
