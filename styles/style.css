@@ -315,17 +315,15 @@ iframe {
 
 .exit {
     position: fixed;
-    font-size: xx-large;
     background-color: rgba(0, 0, 0, 0);
     color: #ffffff;
     border-color: rgba(240, 248, 255, 0);
     border-radius: 10%;
     cursor: pointer;
     z-index: 20;
-    top: 0;
+    padding-top: 4em;
     left: 0;
-    height: 1em;
-    width: 1em;
-    text-shadow: 0.1em 0.1em 0 rgb(0, 0, 0);
-
+    height: 5em;
+    width: 5em;
+    text-shadow: 1em 1em 0 rgb(0, 0, 0);
 }
