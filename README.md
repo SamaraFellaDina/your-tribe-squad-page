@@ -23,7 +23,7 @@ Before you can install LinkUp, make sure you have the following prerequisites in
 1. A text editor for code (e.g., Visual Studio Code).
 2. A web browser to view the LinkUp platform.
 
-### Installation
+### Terminal Command
 To set up LinkUp on your local machine, follow these steps:
 
 1. Clone the LinkUp GitHub repository:
