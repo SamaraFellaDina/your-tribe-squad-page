@@ -50,6 +50,8 @@ header {
     padding: 10px;
     padding-bottom: 15px;
     padding-top: 15px;
+    padding-left: 2em;
+    padding-right: 2em;
     position: absolute;
     top: 0;
     left: 0;
@@ -326,4 +328,5 @@ iframe {
     height: 5em;
     width: 5em;
     text-shadow: 1em 1em 0 rgb(0, 0, 0);
+    filter: invert(100%)
 }
